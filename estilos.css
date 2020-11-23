@@ -1,0 +1,650 @@
+
+/* MINIMO 9 6 0 */
+@media screen and (min-width:960px) {
+	
+	body {
+	margin: 0px;
+	padding: 0px;}
+	
+	h1, h2 {
+	margin: 0;}
+	
+	#container {
+	width: 100%;}
+	
+	.row:after {
+	clear: both;
+	content: "";
+	display: block;
+	width: 100%;}
+	
+	.wrapper {
+	margin: 0 auto;
+	width: 960px;}
+	
+	#container header {
+	margin: 0 auto;
+	padding: 1.5em 0 7em 0;
+	width: 80%;}
+	
+	#header-izquierdo {
+	float: left;
+	width: 30%;}
+	
+	#header-derecho {
+	float: right;
+	width: 60%;}
+	
+	#botonera {
+	width: 100%;}
+	
+	#botonera ul {
+	list-style: none;}
+	
+	#botonera ul li {
+	float: left;
+	text-align: center;
+	width: 30%;}
+	
+	#botonera a {
+	color: #006699;
+	font-family: 'Mukta';
+	font-size: 1.5em;
+	text-decoration: none;}
+	
+	#botonera li a:hover {
+	color:#00CC66;
+	font-weight: bold;}
+	
+	#header-izquierdo img {
+	max-width: 60%;}
+	
+	#section-hero {
+	background-image: url("imagenes/viajeros01.jpg");
+	background-repeat: no-repeat;
+	height: 350px;
+	position: relative;
+	width: 100%;}
+	
+	#hero-copy {
+	color:#fff;
+	font-family: 'Raleway';
+	position: absolute;
+	top: 30%;}
+	
+	#section-hero h1 {
+	font-size: 3em;
+	text-align: center;}
+	
+	#section-hero p {
+	font-size: 1.1em;
+	padding: 0 10% 0 10%;
+	text-align: center;}
+	
+	#destinos {
+	background-color: #ccc;
+	padding: 9em 0;
+	width: 100%;}
+	
+	.art-ciudad {
+	background-color: #fff;
+	float: left;
+	width: 30%;}
+	
+	.imagen-principal {
+	max-width: 100%;}
+	
+	/* Elemento .art-ciudad que sea el 3er. hijo de su padre, en este caso  el padre es .wrapper */
+	.art-ciudad:nth-child(3) {
+	margin: 0 5%;}
+	
+	.principal-copy {
+	font-family: 'Raleway';
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 1em;}
+	
+	.encabezado-01 {
+	color: #006699;
+	font-family: 'Mukta';
+	font-size: 2.6em;
+	text-align: center;
+	padding-bottom: 2em;}
+	
+	.encabezado-02 {
+	font-family: 'Raleway';
+	font-size: 1.5em;
+	text-align: center;
+	padding: 1em 0 0 0;}
+	
+	.encabezado-03 {
+	color: #006699;
+	font-family: 'Raleway';
+	font-size: 1.2em;
+	padding: 1em 0 0 0;}
+	
+	#sucursales {
+	background-color: #fff;
+	padding: 9em 0;
+	width: 100%;}
+	
+	#destinos a, #sucursales a {
+	color: #006699;
+	text-decoration: none;}
+	
+	#oficina-01, #oficina-02 {
+	background-color: #ccc;
+	float: left;
+	width: 45%;}
+	
+	#oficina-01, #footer-izquierdo {
+	margin-right: 5%;}
+	
+	#oficina-02, #footer-derecho {
+	margin-left: 5%;}
+	
+	footer {
+	background-color: #ccc;
+	margin: 3em 0 0 0;
+	overflow: hidden;
+	padding: 5em 0;}
+	
+	#footer-izquierdo {
+	color: #000066;
+	float: left;
+	width: 45%;}
+	
+	.footer-copy {
+	font-family: 'Raleway';
+	font-size: 1em;
+	line-height: 1.3em;}
+	
+	#footer-derecho {
+	float: left;
+	width: 45%;}
+	
+	#footer-derecho a {
+	color: #006699;
+	display: block;
+	font-family: 'Raleway';
+	font-size: 1.1em;
+	line-height: 2em;
+	text-decoration: none;}
+	
+	#footer-derecho a:hover {
+	color:#00CC66;
+	font-weight: bold;}
+}
+
+/* MINIMO 769 - MAXIMO 959 */
+
+@media screen and (min-width:769px) and (max-width: 959px) {
+
+body {
+	margin: 0px;
+	padding: 0px;}
+
+h1, h2 {
+	margin: 0;}
+
+#container {
+	width: 100%;}
+
+.row:after {
+	clear: both;
+	content: "";
+	display: block;
+	width: 100%;}
+
+#container header {
+	margin: 0 auto;
+	overflow: auto;
+	padding: 1.5em 0 7em 0;
+	width: 80%;}
+
+#header-izquierdo {
+	float: left;
+	width: 30%;}
+
+#header-derecho {
+	float: right;
+	width: 60%;}
+
+#botonera {
+	overflow: hidden;
+	padding-top: 1em;
+	width: 100%;}
+
+#botonera ul {
+	margin: 0 auto;
+	list-style: none;}
+
+#botonera ul li {
+	float: left;
+	text-align: center;
+	width: 29%;}
+
+#botonera a {
+	color: #006699;
+	font-family: 'Mukta';
+	font-size: 1.4em;
+	margin: 0 ‭2.166666666666667‬%;
+	text-decoration: none;}
+
+#botonera li a:hover {
+	color:#00CC66;
+	font-weight: bold;}
+
+#header-izquierdo img {
+	max-width: 75%;}
+
+#section-hero {
+	background-image: url("imagenes/viajeros02.jpg");
+	background-repeat: no-repeat;
+	height: 350px;
+	position: relative;
+	width: 100%;}
+
+#hero-copy {
+	color: #fff;
+	font-family: 'Raleway';
+	position: absolute;
+	top: 30%;}
+
+#section-hero h1 {
+	font-size: 2.8em;
+	text-align: center;}
+
+#section-hero p {
+	font-size: 1.1em;
+	padding: 0 10% 0 10%;
+	text-align: center;}
+
+#destinos {
+	background-color: #ccc;
+	overflow: auto;
+	padding: 9em 0;
+	width: 100%;}
+
+.art-ciudad {
+	background-color: #ccc;
+	float: left;
+	width: 30%;}
+
+.imagen-principal {
+	max-width: 100%;}
+
+.art-ciudad:nth-child(3) {
+	margin: 0 5%;}
+
+.principal-copy {
+	padding: 1em;
+	font-family: 'Raleway';
+	font-size: 0.8em;
+	line-height: 1.3em;}
+
+.encabezado-01 {
+	color: #006699;
+	font-family: 'Mukta';
+	font-size: 2.6em;
+	text-align: center;
+	padding-bottom: 2em;}
+
+.encabezado-02 {
+	font-family: 'Raleway';
+	font-size: 1.5em;
+	text-align: center;
+	padding: 1em 0 0 0;}
+
+.encabezado-03 {
+	color: #006699;
+	font-family: 'Raleway';
+	font-size: 1.2em;
+	padding: 1em 0 0 0;}
+
+#sucursales {
+	background-color: #fff;
+	overflow: auto;
+	padding: 9em 0;
+	width: 100%;}
+
+#destinos a, #sucursales a {
+	color: #006699;
+	text-decoration: none;}
+
+#oficina-01, #oficina-02 {
+	background-color: #ccc;
+	float: left;
+	width: 45%;}
+
+#oficina-01, #footer-izquierdo {
+	margin-right: 5%;}
+
+#oficina-02, #footer-derecho {
+	margin-left: 5%;}
+
+footer {
+	background-color: #ccc;
+	margin: 2em 0 0 0;
+	overflow: hidden;
+	padding: 3em 0;}
+
+#footer-izquierdo {
+	color: #000066;
+	float: left;
+	margin-top: 0;
+	width: 45%;}
+
+.footer-copy {
+	font-family: 'Raleway';
+	font-size: 0.8em;
+	line-height: 1.3em;}
+
+#footer-derecho {
+	float: left;
+	width: 45%;}
+
+#footer-derecho a {
+	color: #006699;
+	display: block;
+	font-family: 'Raleway';
+	font-size: 1.1em;
+	line-height: 2em;
+	text-decoration: none;}
+
+#footer-derecho a:hover {
+	color:#00CC66;
+	font-weight: bold;}
+}
+
+/* MINIMO 481 - MAXIMO 768 */
+
+@media screen and (min-width:481px) and (max-width: 768px) {
+	
+	body {
+	margin: 0px;
+	padding: 0px;}
+	
+	h1, h2 {
+	margin: 0;}
+	
+	#container {
+	width: 100%;}
+
+
+
+	.row:after {
+	clear: both;
+	content: "";
+	display: block;
+	width: 100%;}
+	
+	#container header {
+	overflow: auto;
+	padding: 2em 0 2em 0;
+	width: 100%;}
+	
+	#header-izquierdo, #header-derecho {
+	width: 100%;}
+	
+	#botonera {
+	overflow: hidden;
+	padding-top: 2em;
+	width: 100%;}
+	
+	#botonera ul {
+	margin: 0 auto;
+	list-style: none;}
+	
+	#botonera ul li {
+	float: left;
+	text-align: center;
+	width: 29%;}
+	
+	#botonera a {
+	color: #006699;
+	font-family: 'Mukta';
+	font-size: 1.4em;
+	text-decoration: none;
+	margin: 0 ‭2.166666666666667‬%;}
+	
+	#botonera li a:hover {
+	color:#00CC66;
+	font-weight: bold;}
+	
+	#header-izquierdo img {
+	display: block;
+	margin: 0 auto;
+	max-width: 50%;}
+	
+	#section-hero {
+	background-image: url("imagenes/viajeros03.jpg");
+	background-repeat: no-repeat;
+	height: 250px;
+	position: relative;
+	width: 100%;}
+	
+	#hero-copy {
+	color: #fff;
+	font-family: 'Raleway';
+	font-size: 0.9em;
+	position: absolute;
+	top: 20%;}
+	
+	#section-hero h1 {
+	font-size: 2.8em;
+	text-align: center;}
+	
+	#section-hero p {
+	font-size: 1.1em;
+	padding: 0 10% 0 10%;
+	text-align: center;}
+	
+	#destinos {
+	background-color: #ccc;
+	padding: 5em 0 2.5em 0;
+	width: 100%;}
+	
+	.art-ciudad {
+	background-color: #fff;
+	width: 100%;}
+	
+	.imagen-principal {
+	float: left;
+	max-width: 30%;
+	padding: 0.7em;}
+	
+	.principal-copy {
+	padding: 1em;
+	font-family: 'Raleway';
+	font-size: 0.8em;
+	line-height: 1.3em;}
+	
+	.encabezado-01 {
+	color: #006699;
+	font-family: 'Mukta';
+	font-size: 2.6em;
+	text-align: center;
+	padding-bottom: 2em;}
+	
+	.encabezado-02 {
+	font-family: 'Raleway';
+	font-size: 1.5em;
+	padding: 1em 0 0 0;}
+	
+	.encabezado-03 {
+	color: #006699;
+	font-family: 'Raleway';
+	font-size: 1.2em;
+	padding: 1em 0 0 0;}
+	
+	#destinos a, #sucursales a {
+	color: #006699;
+	text-decoration: none;}
+	
+	#sucursales {
+	background-color: #ccc;
+	padding: 2.5em 0;
+	width: 100%;}
+
+	#oficina-01, #oficina-02 {
+	background-color: #fff;
+	float: left;
+	padding: 1em 0;
+	width: 100%;}
+	
+	footer {
+	background-color: #ccc;
+	margin: 1em 0 0 0;
+	overflow: hidden;
+	padding: 2em 1em;}
+	
+	#footer-izquierdo {
+	color: #000066;
+	margin-right: 5%;
+	width: 100%;}
+	
+	.footer-copy {
+	font-family: 'Raleway';
+	font-size: 0.8em;
+	line-height: 1.3em;}
+	
+	#footer-derecho a {
+	color: #006699;
+	display: block;
+	font-family: 'Raleway';
+	font-size: 0.8em;
+	line-height: 1.5em;
+	text-decoration: none;}
+	
+	#footer-derecho a:hover {
+	color:#00CC66;
+	font-weight: bold;}
+}
+
+@media screen and (max-width:480px) {
+	
+	#container, header, #header-izquierdo, #header-derecho, #botonera {
+		width: 100%;}
+
+	#header-izquierdo img {
+		display: block;
+		margin: 0 auto;
+		max-width: 70%; 
+		padding: 15px 0 25px 0;}
+
+	#botonera ul {
+		background-color: #006699;
+		list-style: none;
+		margin: 0;
+		padding: 0;}
+		
+	#botonera ul li {
+		display: block;
+		text-align: center;
+		width: 100%;}
+	
+	.borde-blanco {
+		border-bottom: 2px solid #ccc;}
+
+	#botonera a {
+		color: #fff;
+		font-family: 'Mukta';
+		font-size: 1.4em;
+		text-decoration: none;}
+	
+	#section-hero {
+		background-image: url("imagenes/viajeros04.jpg");
+		background-repeat: no-repeat;
+		height: 200px;
+		position: relative;
+		width: 100%;}
+
+	#hero-copy {
+		color: #fff;
+		font-family: 'Raleway';
+		font-size: 0.9em;
+		position: absolute;
+		top: 10%;}
+		
+	#section-hero h1 {
+		font-size: 2.5em;
+		text-align: center;}
+		
+	#section-hero p {
+		display: none;}
+
+	.encabezado-01 {
+		color: #006699;
+		font-family: 'Mukta';
+		font-size: 2.5em;
+		text-align: center;
+		padding: 0 0 0.5em 0;}
+
+	.encabezado-02 {
+		font-family: 'Raleway';
+		font-size: 1.5em;
+		margin: 0.5em;
+		text-align: center;}
+
+	#destinos {
+		background-color: #ccc;
+		padding: 2em 0;
+		width: 100%;}
+	
+	#destinos a, #sucursales a {
+		color: #006699;
+		text-decoration: none;}
+
+	.principal-copy {
+		margin: 0.5em 0.8em;
+		font-family: 'Raleway';
+		font-size: 0.9em;
+		text-align: center;}
+
+	.imagen-principal {
+		display: block;
+		margin: 0 auto;
+		max-width: 50%;
+		padding-top: 0.5em;}
+
+	#footer-izquierdo {
+		margin-right: 5%;}
+		
+	#footer-derecho {
+		margin-left: 5%;}
+		
+	footer {
+		background-color: #ccc;
+		margin: 1em 0 0 0;
+		overflow: hidden;
+		padding: 2em 1em;}
+		
+	#footer-izquierdo {
+		color: #000066;
+		width: 100%;}
+		
+	.footer-copy {
+		font-family: 'Raleway';
+		font-size: 0.8em;
+		line-height: 1.3em;}
+		
+	#footer-derecho {
+		margin: 0 auto;
+		overflow: hidden;}
+		
+	#footer-derecho a {
+		color: #006699;
+		display: block;
+		font-family: 'Raleway';
+		font-size: 0.8em;
+		line-height: 1.5em;
+		text-decoration: none;}
+	
+	#footer-derecho a:hover {
+		color:#00CC66;
+		font-weight: bold;}
+	}
+		
+
+
